@@ -1,0 +1,50 @@
+body {
+    background-color: #695971;
+}
+
+.bg-color {
+    background-color: #dee2e6;
+}
+
+.navbar-brand {
+    width: 15%;
+    margin-top: 6vw;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: black;
+    font-size: 1.2vw;
+}
+
+.main-text {
+    font-size: 1.5vw;
+}
+
+.section-list li {
+    padding-top: 10px;
+    list-style: none;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-container {
+    margin-top: 8vw;
+}
+
+#homepage-navbar {;
+    height: calc(10px + 2vw);
+    margin: 3.5vw 1vw;
+    border-radius: 5px;
+}
+
+#navbar-background {
+    background-color: #695971;
+}
+
+#spacer {
+    background-color: #695971;
+    height: 4.5vw;
+}

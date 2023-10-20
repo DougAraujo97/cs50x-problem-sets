@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Doug Araujo Homepage</title>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid p-1" id="navbar-background">
+                <nav class="navbar navbar-expand bg-color" id="homepage-navbar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand mx-3" href="index.html">
+                            <img src="https://scontent-gig4-1.xx.fbcdn.net/v/t39.30808-6/359422439_4209921342566736_5162316007485545363_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ys2QAdRL8hMAX_00P8Y&_nc_ht=scontent-gig4-1.xx&oh=00_AfCIsb02Jef9pG9FIZpLrwzC6K3zWCS5AH23jubEUaQVNw&oe=64BC810E" alt="Doug's profile picture" class="img-fluid position-sticky rounded-circle border border-2">
+                        </a>
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="about.html">About Me</a>
+                            <a class="nav-link" href="hobbies.html">My Hobbies</a>
+                            <a class="nav-link" href="goals.html">My Goals</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <div class="row d-flex mx-auto justify-content-between">
+                <aside class="col-3 mt-4 ms-2">
+                    <div id="spacer"></div>
+                    <div class="container-fluid bg-color rounded main-text">
+                        <h5 class="my-1 text-center">
+                            What you'll learn:
+                        </h5>
+                        <br>
+                        <ul class="main-text">
+                            <li class="mb-2">
+                                Facts about me
+                            </li>
+                            <li class="mb-2">
+                                My hobbies
+                            </li>
+                            <li class="mb-2">
+                                My goals and why I started coding
+                            </li>
+                        </ul>
+                        <br>
+                        <div class="input-group mb-3">
+                            <input type="text" id="user-name" class="form-control" placeholder="Your Name" aria-label="Your Name">
+                            <div class="input-group-append">
+                                <button id="name-button" class="btn btn-outline-dark" type="button">Say HI!</button>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </aside>
+                <div class="col-8 mt-4 me-3 bg-color rounded">
+                    <div class="container-fluid">
+                        <h2 class="m-1 text-center">Hi, My name's Doug.</h2>
+                        <p class="m-1 mt-3 main-text">I've made this page because of a CS50 assignment, and I'll be honest, it's kicking my butt.
+                            If I've managed to do my job, you should be able to use the navbar at the top to learn more about me, my hobbies and my goals, or you can stick around here
+                            and admire the cool pictures of me below!
+                        </p>
+                    </div>
+                    <div class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://scontent-gig4-1.xx.fbcdn.net/v/t39.30808-6/355485517_4191678984390972_8247643511690085976_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=Ork3RrzgNd8AX8qvaUX&_nc_ht=scontent-gig4-1.xx&oh=00_AfBuDe_EqwHzeZbaXXAf97bWQJlQbyHR4Buso9_PC8Pd9g&oe=64B8986B" class="d-block w-50 img-fluid mx-auto p-3" alt="Me Smiling">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://scontent-gig4-1.xx.fbcdn.net/v/t39.30808-6/336354908_873521597270546_8404358689830972394_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=CbM0Bqx4oQIAX_d6bDM&_nc_ht=scontent-gig4-1.xx&oh=00_AfB6y7TdQ3CWOMVzTvGMGTiqdGzKWR9BNTYegMKg8niXdA&oe=64B7E207" class="d-block w-50 img-fluid mx-auto p-3" alt="Me with my dog">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://scontent-gig4-1.xx.fbcdn.net/v/t39.30808-6/272120684_3748257672066441_4953835243192444729_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=mAmzet95EKsAX-rATaf&_nc_ht=scontent-gig4-1.xx&oh=00_AfCM4tT62Ipe00J_0CwRZ-w1CsA8aZAI3G3U7HLLTzNVEQ&oe=64B83ABB" class="d-block w-50 img-fluid mx-auto p-3" alt="Me in a booth at a restaurant">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
